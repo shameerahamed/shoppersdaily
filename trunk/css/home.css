@@ -1,0 +1,35 @@
+body {
+	font-family: arial verdana;
+	font-size: 14px;
+	margin-top:10px;	
+}
+
+.tbl {
+	border: 1px solid #7EB4E4; /* #ADB121; */
+	margin-top:100px;
+}
+
+.btn {
+	/* background: #ADB100; */
+	background: #A9CDED;
+}
+
+
+.label {
+	padding-left : 30px;
+	font-weight: bold;
+}
+
+a.link01 {
+	text-decoration : none;
+	font-size: 13px;
+	color : #AB1100;
+	
+}
+
+a.link01:hover{
+	text-decoration : underline;
+	font-size:14px;	
+	color : #AA1100;
+	font-weight: bold;
+}
