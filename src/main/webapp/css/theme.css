@@ -1,0 +1,76 @@
+.txtbox {	
+	border : #93B000 1px solid;
+	background: #E2EEEF;
+	/* width: 200px;*/ 
+	height: 20px;
+}
+
+.txtar {
+	width:140px;
+}
+
+body{
+	background-color:#ECFCCF;
+	/*#e3f9d5;*/
+}
+
+.header {
+	color: #FFFFFF;
+	font-weigth:bold;
+}
+
+#f1{
+color:#1e5680;
+font-size:25px;
+line-height: 10px;
+}
+
+#f2{
+color:#1e5680;
+font-size:15px;
+line-height: 13px;
+}
+
+.label {
+	font-weight:bold;
+	font-size: 14px;
+}
+
+
+/* table css */
+table.sample {
+	border-width: 1px;
+	border-spacing: 2px;
+	border-style: hidden;
+	border-color: gray;
+	border-collapse: separate;
+	background-color: #7DBB0B;
+}
+table.sample th {
+	border-width: 1px;
+	padding: 1px;
+	border-style: hidden;
+	border-color: gray;
+	background-color: white;
+	cell-spacing:15px;
+	cell-padding:15px;
+	-moz-border-radius: ;
+}
+table.sample td {
+	border-width: 1px;
+	padding: 1px;
+	border-style: hidden;
+	border-color: gray;
+	background-color: white;
+	-moz-border-radius: ;
+}
+
+a {
+	color: #404C00;	
+	font-size: 15px;	
+}
+
+a:hover {
+	text-decoration: none;	
+	font-weight:bold;
+}
