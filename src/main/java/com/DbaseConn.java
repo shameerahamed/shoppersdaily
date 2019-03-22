@@ -1,6 +1,7 @@
 package com;
 
 import java.sql.*;
+import java.util.ResourceBundle;
 
 public class DbaseConn {
 	static String url;
@@ -8,13 +9,15 @@ public class DbaseConn {
 	static Statement stmt;
 	static ResultSet rs;
 	static int res;
+
+	private static ResourceBundle resourceBundle = ResourceBundle.getBundle("database");
 	
 	public static void getConnection(){
-		url = "jdbc:mysql://localhost:3306/shopdetails";	
+		url = resourceBundle.getString("jdbcURL");
 		try {
-		Class.forName("org.mariadb.jdbc.Driver");
-		String userName = System.getenv("db_user");
-		String password = System.getenv("db_password");
+		Class.forName(resourceBundle.getString("jdbcDriver"));
+		String userName = resourceBundle.getString("username");
+		String password = resourceBundle.getString("password");
 		con= DriverManager.getConnection(url,userName,password);
 		stmt = con.createStatement();
 		System.out.println("Connected...!");
