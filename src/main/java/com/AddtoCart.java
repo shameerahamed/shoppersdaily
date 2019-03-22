@@ -7,7 +7,7 @@ import java.util.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
 
-import com.mysql.jdbc.Statement;
+import java.sql.Statement;
 
 /**
  * Servlet implementation class AddtoCart
