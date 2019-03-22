@@ -12,7 +12,7 @@ public class DbaseConn {
 	public static void getConnection(){
 		url = "jdbc:mysql://localhost:3306/shopdetails";	
 		try {
-		Class.forName("com.mysql.jdbc.Driver");
+		Class.forName("org.mariadb.jdbc.Driver");
 		String userName = System.getenv("db_user");
 		String password = System.getenv("db_password");
 		con= DriverManager.getConnection(url,userName,password);
